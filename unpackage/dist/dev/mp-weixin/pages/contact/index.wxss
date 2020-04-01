@@ -1,0 +1,22 @@
+
+.box {
+	width: 100px;
+	height: 100px;
+	background: #4CD964;
+}
+.box2 {
+	width: 200px;
+	height: 200px;
+	background: #007AFF;
+}
+.box2-active {
+	width: 200px;
+	height: 200px;
+	background: #DD524D;
+}
+.box-active {
+	width: 120px;
+	height: 120px;
+	background: #DD524D;
+}
+

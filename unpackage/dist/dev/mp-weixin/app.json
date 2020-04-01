@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/info/index",
+    "pages/contact/index",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "晓晓",
+    "navigationBarBackgroundColor": "#00FF00",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B0C4DE",
+    "selectedColor": "#FF4500",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/info/index",
+        "iconPath": "static/tabs/info.png",
+        "selectedIconPath": "static/tabs/info-active.png"
+      },
+      {
+        "text": "我们",
+        "pagePath": "pages/contact/index",
+        "iconPath": "static/tabs/Contact.png",
+        "selectedIconPath": "static/tabs/Contact-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap89.json"
+}

@@ -1,0 +1,43 @@
+<template>
+	<view class="content">
+		<view class="text-area">
+			<text class="title">{{title}}</text>
+		</view>
+		<view class="text-area">
+			<text class="title" selectable>{{title}}</text>
+		</view>
+		<view class="text-area">
+			<text class="title" selectable space="ensp">唱歌   跳舞 篮球</text>
+		</view>
+		<view class="text-area">
+			<text class="title" selectable space="ensp" decode="">唱歌   跳舞 篮球&nbsp;</text>
+		</view>
+		
+		<button type="default">按钮</button>
+		<button type="default" size="mini">按钮</button>
+		<button type="warn" size="mini">按钮</button>
+		<button type="primary" size="mini">按钮</button>
+		<button type="primary" size="mini" plain="true">按钮</button>
+		<button type="primary" size="mini" plain="true" disabled>按钮</button>
+		<button type="primary" size="mini" plain="true" disabled loading="true">按钮</button>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: '主页'
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+</script>
+
+<style>
+</style>

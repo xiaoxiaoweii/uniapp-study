@@ -8,39 +8,15 @@
 		</swiper>
 		<!-- 导航区域 -->
 		<view class="nav">
-			<view class="nav_item">
-				<view class="iconfont icon-tubiaolunkuo-"></view>
-				<text>物流查询</text>
-			</view>
-			<view class="nav_item">
-				<view class="iconfont icon-fuwu"></view>
-				<text>充值缴费</text>
-			</view>
-			<view class="nav_item">
-				<view class="iconfont icon-coat"></view>
-				<text>晓晓服饰</text>
-			</view>
-			<view class="nav_item">
-				<view class="iconfont icon-shengxian_xie"></view>
-				<text>晓晓生鲜</text>
+			<view class="nav_item" v-for="(item, index) in navs_1" :key="index" @click="navItemClick(item.path)">
+				<view :class="item.icon"></view>
+				<text>{{item.title}}</text>
 			</view>
 		</view>
 		<view class="nav">
-			<view class="nav_item">
-				<view class="iconfont icon-quan"></view>
-				<text>领券</text>
-			</view>
-			<view class="nav_item">
-				<view class="iconfont icon-zhuanqian"></view>
-				<text>赚钱</text>
-			</view>
-			<view class="nav_item">
-				<view class="iconfont icon-weibiaoti2fuzhi03"></view>
-				<text>数码电器</text>
-			</view>
-			<view class="nav_item">
-				<view class="iconfont icon-icon-test"></view>
-				<text>拍拍二手</text>
+			<view class="nav_item" v-for="(item, index) in navs_2" :key="index" @click="navItemClick(item.path)">
+				<view :class="item.icon"></view>
+				<text>{{item.title}}</text>
 			</view>
 		</view>
 		<!-- 推荐商品 -->
@@ -48,23 +24,13 @@
 			<view class="tit">
 				推荐商品
 			</view>
-			<view class="goods_list">
-				<view class="goods_item" v-for="item in goods" :key="item.id">
-					<image :src="item.url"></image>
-					<view class="price">
-						<text>￥{{item.price}}</text>
-					</view>
-					<view class="name">
-						{{item.zhaiyao}}
-					</view>
-				</view>
-
-			</view>
+			<goods-list :goods="goods"></goods-list>
 		</view>
 	</view>
 </template>
 
 <script>
+	import goodsList from '../../components/goods-list/goods-list.vue'
 	export default {
 		data() {
 			return {
@@ -135,8 +101,55 @@
 					"price": 17.8,
 					"url": 'http://img14.360buyimg.com/mobilecms/s372x372_jfs/t1/109776/36/10717/268393/5e81a464Edeffa157/e9bdb31ba7974873.jpg!q70.dpg.webp'
 					}
+				],
+				navs_1: [
+					{
+					icon:'iconfont icon-tubiaolunkuo-',
+					title: '物流查询',
+					path: '/pages/goods/goods'
+					},
+					{
+					icon:'iconfont icon-fuwu',
+					title: '充值缴费',
+					path: '/pages/goods/goods'
+					},
+					{
+					icon:'iconfont icon-coat',
+					title: '晓晓服饰',
+					path: '/pages/goods/goods'
+					},
+					{
+					icon:'iconfont icon-shengxian_xie',
+					title: '晓晓生鲜',
+					path: '/pages/goods/goods'
+					}
+				],
+				navs_2: [
+					{
+					icon:'iconfont icon-quan',
+					title: '领券',
+					path: '/pages/goods/goods'
+					},
+					{
+					icon:'iconfont icon-zhuanqian',
+					title: '赚钱',
+					path: '/pages/goods/goods'
+					},
+					{
+					icon:'iconfont icon-weibiaoti2fuzhi03',
+					title: '数码电器',
+					path: '/pages/goods/goods'
+					},
+					{
+					icon:'iconfont icon-icon-test',
+					title: '拍拍二手',
+					path: '/pages/goods/goods'
+					},
 				]
 			}
+		},
+		comments:{
+			"goods-list": goodsList
 		},
 		onLoad() {
 			// 页面加载 获取轮播图数据
@@ -160,9 +173,15 @@
 						this.swipers = res.data.message
 					}
 				})
-			}
+			},
 			// 获取热门商品数据
-
+			// 导航点击处理函数
+			navItemClick (url) {
+				// console.log(url)
+				uni.navigateTo({
+					url
+				})
+			}
 		}
 	}
 </script>
@@ -211,7 +230,6 @@
 		background: #eee;
 		overflow: hidden;
 		margin-top: 14px;
-
 		.tit {
 			height: 50px;
 			line-height: 50px;
@@ -220,46 +238,6 @@
 			letter-spacing: 20px;
 			background: #fff;
 			margin: 10rpx 0;
-		}
-
-		.goods_list {
-			padding: 0 15rpx;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-
-			.goods_item {
-				background: #fff;
-				width: 355rpx;
-				margin: 10rpx 0;
-				padding: 15rpx;
-				box-sizing: border-box;
-
-				image {
-					width: 80%;
-					height: 150px;
-					display: block;
-					margin: auto;
-				}
-
-				.price {
-					color: $shop-color;
-					font-size: 36rpx;
-					margin: 20rpx 0 10rpx 0;
-					text:nth-child(2) {
-						color: #ccc;
-						font-size: 20rpx;
-						margin-left: 17rpx;
-						text-decoration: line-through;
-					}
-				}
-
-				.name {
-					font-size: 24rpx;
-					line-height: 50rpx;
-					padding-top: 10rpx;
-				}
-			}
 		}
 	}
 </style>

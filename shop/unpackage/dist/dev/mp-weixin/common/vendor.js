@@ -8528,7 +8528,7 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "晓晓商城", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/cart/cart": { "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/member/member": { "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/news/news": { "usingComponents": {}, "usingAutoImportComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "晓晓商城", "navigationBarBackgroundColor": "#DC143C", "backgroundColor": "#F8F8F8" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "晓晓商城", "usingComponents": {}, "usingAutoImportComponents": { "goods-list": "/components/goods-list/goods-list" } }, "pages/cart/cart": { "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/member/member": { "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/news/news": { "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/goods/goods": { "navigationBarTitleText": "商品列表", "enablePullDownRefresh": true, "usingComponents": {}, "usingAutoImportComponents": { "goods-list": "/components/goods-list/goods-list" } } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "晓晓商城", "navigationBarBackgroundColor": "#DC143C", "backgroundColor": "#F8F8F8" } };exports.default = _default;
 
 /***/ }),
 /* 8 */

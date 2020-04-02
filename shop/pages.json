@@ -18,7 +18,14 @@
 			"path": "pages/news/news",
 			"style": {}
 		}
-	],
+	    ,{
+            "path" : "pages/goods/goods",
+            "style" : {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": true
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "晓晓商城",

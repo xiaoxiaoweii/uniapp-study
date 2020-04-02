@@ -1,6 +1,19 @@
 <template>
-	<view>
-		首页
+	<view class="home">
+		<swiper indicator-dots circular>
+			<swiper-item v-for="item in swipers" :key="item.id">
+				<image :src="item.img"></image>
+			</swiper-item>
+		</swiper>
+		<!-- 导航区域 -->
+		<view class="nav">
+			<view class="nav_item">
+				<view class="">
+					
+				</view>
+				<text>黑马超市</text>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -18,17 +31,15 @@
 		methods: {
 			// 获取轮播图的数据
 			getSwiper () {
-				console.log('获取轮播图的数据')
+				console.log('获取轮播图数据')
 				uni.request({
-					url: '../../static/api/luobotu.json',
-					method: 'get',
-					success: res => {
+					url:'../../static/api/lunbotu.json',
+					success: res=> {
 						console.log(res)
-						// 如果data下的status不为0 返回 给提示
 						if(res.data.status !==0){
-							// 提示
 							return uni.showToast({
-								title:'获取数据失败'
+								title:'获取数据失败',
+								icon: 'none'
 							})
 						}
 						this.swipers = res.data.message
@@ -39,6 +50,15 @@
 	}
 </script>
 
-<style>
-	
+<style lang="scss">
+	.home {
+		swiper{
+			width: 750rpx;
+			height: 380rpx;
+			image{
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
 </style>

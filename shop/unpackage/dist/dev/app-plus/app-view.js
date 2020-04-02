@@ -225,7 +225,6 @@ var render = function() {
     "v-uni-view",
     { staticClass: _vm._$g(0, "sc"), attrs: { _i: 0 } },
     [
-      _vm._v("\n\t111\n\t"),
       _c(
         "v-uni-swiper",
         { attrs: { "indicator-dots": true, circular: true, _i: 1 } },
@@ -235,12 +234,183 @@ var render = function() {
             { key: item, attrs: { _i: "2-" + $30 } },
             [
               _c("v-uni-image", {
-                attrs: { src: _vm._$g("3-" + $30, "a-src"), _i: "3-" + $30 }
+                attrs: {
+                  src: _vm._$g("3-" + $30, "a-src"),
+                  mode: "",
+                  _i: "3-" + $30
+                }
               })
             ],
             1
           )
         }),
+        1
+      ),
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } },
+        [
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(5, "sc"), attrs: { _i: 5 } },
+            [
+              _c("v-uni-view", {
+                staticClass: _vm._$g(6, "sc"),
+                attrs: { _i: 6 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 7 } }, [_vm._v("物流查询")])
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
+            [
+              _c("v-uni-view", {
+                staticClass: _vm._$g(9, "sc"),
+                attrs: { _i: 9 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 10 } }, [_vm._v("充值缴费")])
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(11, "sc"), attrs: { _i: 11 } },
+            [
+              _c("v-uni-view", {
+                staticClass: _vm._$g(12, "sc"),
+                attrs: { _i: 12 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 13 } }, [_vm._v("晓晓服饰")])
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(14, "sc"), attrs: { _i: 14 } },
+            [
+              _c("v-uni-view", {
+                staticClass: _vm._$g(15, "sc"),
+                attrs: { _i: 15 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 16 } }, [_vm._v("晓晓生鲜")])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(17, "sc"), attrs: { _i: 17 } },
+        [
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(18, "sc"), attrs: { _i: 18 } },
+            [
+              _c("v-uni-view", {
+                staticClass: _vm._$g(19, "sc"),
+                attrs: { _i: 19 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 20 } }, [_vm._v("领券")])
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(21, "sc"), attrs: { _i: 21 } },
+            [
+              _c("v-uni-view", {
+                staticClass: _vm._$g(22, "sc"),
+                attrs: { _i: 22 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 23 } }, [_vm._v("赚钱")])
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(24, "sc"), attrs: { _i: 24 } },
+            [
+              _c("v-uni-view", {
+                staticClass: _vm._$g(25, "sc"),
+                attrs: { _i: 25 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 26 } }, [_vm._v("数码电器")])
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(27, "sc"), attrs: { _i: 27 } },
+            [
+              _c("v-uni-view", {
+                staticClass: _vm._$g(28, "sc"),
+                attrs: { _i: 28 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 29 } }, [_vm._v("拍拍二手")])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(30, "sc"), attrs: { _i: 30 } },
+        [
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(31, "sc"), attrs: { _i: 31 } },
+            [_vm._v("\n\t\t\t推荐商品\n\t\t")]
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(32, "sc"), attrs: { _i: 32 } },
+            _vm._l(_vm._$g(33, "f"), function(item, $11, $21, $31) {
+              return _c(
+                "v-uni-view",
+                {
+                  key: item,
+                  staticClass: _vm._$g("33-" + $31, "sc"),
+                  attrs: { _i: "33-" + $31 }
+                },
+                [
+                  _c("v-uni-image", {
+                    attrs: {
+                      src: _vm._$g("34-" + $31, "a-src"),
+                      _i: "34-" + $31
+                    }
+                  }),
+                  _c(
+                    "v-uni-view",
+                    {
+                      staticClass: _vm._$g("35-" + $31, "sc"),
+                      attrs: { _i: "35-" + $31 }
+                    },
+                    [
+                      _c("v-uni-text", { attrs: { _i: "36-" + $31 } }, [
+                        _vm._v("￥" + _vm._$g("36-" + $31, "t0-0"))
+                      ])
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    {
+                      staticClass: _vm._$g("37-" + $31, "sc"),
+                      attrs: { _i: "37-" + $31 }
+                    },
+                    [_vm._v(_vm._$g("37-" + $31, "t0-0"))]
+                  )
+                ],
+                1
+              )
+            }),
+            1
+          )
+        ],
         1
       )
     ],
@@ -335,7 +505,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../Program Files/HBuilderX.2.6.8.20200330.full/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n/**\r\n * 这里是uni-app内置的常用样式变量\r\n *\r\n * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\r\n * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\r\n *\r\n */\n/**\r\n * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能\r\n *\r\n * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件\r\n */\n/* 颜色变量 */\n/* 行为相关颜色 */\n/* 文字基本颜色 */\n/* 背景颜色 */\n/* 边框颜色 */\n/* 尺寸变量 */\n/* 文字尺寸 */\n/* 图片尺寸 */\n/* Border Radius */\n/* 水平间距 */\n/* 垂直间距 */\n/* 透明度 */\n/* 文章场景相关 */\n.home uni-swiper {\n  width: 750rpx;\n  height: 380rpx;\n}\n.home uni-swiper uni-image {\n    height: 100%;\n    width: 100%;\n}\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n/**\r\n * 这里是uni-app内置的常用样式变量\r\n *\r\n * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\r\n * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\r\n *\r\n */\n/**\r\n * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能\r\n *\r\n * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件\r\n */\n/* 颜色变量 */\n/* 行为相关颜色 */\n/* 文字基本颜色 */\n/* 背景颜色 */\n/* 边框颜色 */\n/* 尺寸变量 */\n/* 文字尺寸 */\n/* 图片尺寸 */\n/* Border Radius */\n/* 水平间距 */\n/* 垂直间距 */\n/* 透明度 */\n/* 文章场景相关 */\n.home uni-swiper {\n  width: 750rpx;\n  height: 380rpx;\n}\n.home uni-swiper uni-image {\n    height: 100%;\n    width: 100%;\n}\n.nav {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n}\n.nav .nav_item {\n    width: 25%;\n    text-align: center;\n}\n.nav .nav_item uni-view {\n      width: 120rpx;\n      height: 120rpx;\n      background: #DC143C;\n      border-radius: 60rpx;\n      margin: 10px auto;\n      line-height: 120rpx;\n      color: #fff;\n      font-size: 55rpx;\n}\n.nav uni-text {\n    font-size: 30rpx;\n}\n.hot_goods {\n  background: #eee;\n  overflow: hidden;\n  margin-top: 14px;\n}\n.hot_goods .tit {\n    height: 50px;\n    line-height: 50px;\n    color: #DC143C;\n    text-align: center;\n    letter-spacing: 20px;\n    background: #fff;\n    margin: 10rpx 0;\n}\n.hot_goods .goods_list {\n    padding: 0 15rpx;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: flex;\n    -webkit-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n            justify-content: space-between;\n}\n.hot_goods .goods_list .goods_item {\n      background: #fff;\n      width: 355rpx;\n      margin: 10rpx 0;\n      padding: 15rpx;\n      box-sizing: border-box;\n}\n.hot_goods .goods_list .goods_item uni-image {\n        width: 80%;\n        height: 150px;\n        display: block;\n        margin: auto;\n}\n.hot_goods .goods_list .goods_item .price {\n        color: #DC143C;\n        font-size: 36rpx;\n        margin: 20rpx 0 10rpx 0;\n}\n.hot_goods .goods_list .goods_item .price uni-text:nth-child(2) {\n          color: #ccc;\n          font-size: 20rpx;\n          margin-left: 17rpx;\n          text-decoration: line-through;\n}\n.hot_goods .goods_list .goods_item .name {\n        font-size: 24rpx;\n        line-height: 50rpx;\n        padding-top: 10rpx;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -1283,12 +1453,106 @@ if(false) {}
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../Program Files/HBuilderX.2.6.8.20200330.full/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../../../Program Files/HBuilderX.2.6.8.20200330.full/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/getUrl.js */ 32);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! @/static/font/iconfont.eot?t=1585831501626 */ 33);
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! @/static/font/iconfont.woff?t=1585831501626 */ 34);
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! @/static/font/iconfont.ttf?t=1585831501626 */ 35);
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! @/static/font/iconfont.svg?t=1585831501626 */ 36);
 exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___, { hash: "#iefix" });
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___, { hash: "#iconfont" });
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*每个页面公共css */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*每个页面公共css */\n@font-face {font-family: \"iconfont\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); /* IE9 */\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('embedded-opentype'), \n  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),\n  url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") format('woff'),\n  url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ") format('truetype'), \n  url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") format('svg'); /* iOS 4.1- */\n}\n.iconfont {\n  font-family: \"iconfont\" !important;\n  font-size: 16px;\n  font-style: normal;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n.icon-quan:before {\n  content: \"\\e748\";\n}\n.icon-zhuanqian:before {\n  content: \"\\e63d\";\n}\n.icon-weibiaoti2fuzhi03:before {\n  content: \"\\e611\";\n}\n.icon-icon-test:before {\n  content: \"\\e621\";\n}\n.icon-tubiaolunkuo-:before {\n  content: \"\\e608\";\n}\n.icon-fuwu:before {\n  content: \"\\e617\";\n}\n.icon-coat:before {\n  content: \"\\e64c\";\n}\n.icon-shengxian_xie:before {\n  content: \"\\e624\";\n}\n\n\n", ""]);
 // Exports
 module.exports = exports;
 
+
+/***/ }),
+/* 32 */
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== 'string') {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+/* 33 */
+/*!************************************************************************************************!*\
+  !*** C:/Users/xiaoxiaoweii/Desktop/uniapp-study/shop/static/font/iconfont.eot?t=1585831501626 ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "static/font/iconfont.eot";
+
+/***/ }),
+/* 34 */
+/*!*************************************************************************************************!*\
+  !*** C:/Users/xiaoxiaoweii/Desktop/uniapp-study/shop/static/font/iconfont.woff?t=1585831501626 ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "static/font/iconfont.woff";
+
+/***/ }),
+/* 35 */
+/*!************************************************************************************************!*\
+  !*** C:/Users/xiaoxiaoweii/Desktop/uniapp-study/shop/static/font/iconfont.ttf?t=1585831501626 ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "static/font/iconfont.ttf";
+
+/***/ }),
+/* 36 */
+/*!************************************************************************************************!*\
+  !*** C:/Users/xiaoxiaoweii/Desktop/uniapp-study/shop/static/font/iconfont.svg?t=1585831501626 ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/img/iconfont.5803baed.svg";
 
 /***/ })
 /******/ ]);

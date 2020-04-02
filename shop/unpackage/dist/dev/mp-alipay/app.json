@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/news/news"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "晓晓商城",
+    "titleBarColor": "#DC143C",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#333333",
+    "selectedColor": "#DD524D",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/home-active.png",
+        "activeIcon": "static/home.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "name": "资讯",
+        "icon": "static/info-active.png",
+        "activeIcon": "static/info.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "name": "购物车",
+        "icon": "static/shoping-active.png",
+        "activeIcon": "static/shopping.png"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "name": "会员",
+        "icon": "static/member-active.png",
+        "activeIcon": "static/member.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

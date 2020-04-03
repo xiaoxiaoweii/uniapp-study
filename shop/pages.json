@@ -16,7 +16,9 @@
 		},
 		{
 			"path": "pages/news/news",
-			"style": {}
+			"style": {
+				"navigationBarTitleText": "资讯"
+			}
 		}
 	    ,{
             "path" : "pages/goods/goods",
@@ -35,6 +37,18 @@
             "path" : "pages/cloths/cloths",
             "style" : {
 				"navigationBarTitleText": "晓晓服饰"
+			}
+        }
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" : {
+				"navigationBarTitleText": "资讯详情"
+			}
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" : {
+				"navigationBarTitleText": "商品详情"
 			}
         }
     ],

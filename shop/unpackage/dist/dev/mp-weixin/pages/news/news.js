@@ -91,7 +91,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
-var components
+var components = {
+  "news-item": () =>
+    __webpack_require__.e(/*! import() | components/news-item/news-item */ "components/news-item/news-item").then(__webpack_require__.bind(null, /*! @/components/news-item/news-item.vue */ 86))
+}
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -129,20 +132,103 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-//
-//
-//
-//
-//
-var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var newsItem = function newsItem() {__webpack_require__.e(/*! require.ensure | components/news-item/news-item */ "components/news-item/news-item").then((function () {return resolve(__webpack_require__(/*! ../../components/news-item/news-item */ 86));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
+
+
+
+
+
 {
   data: function data() {
-    return {};
+    return {
+      newsData: [
+      {
+        time: '2020-01-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img31.house365.com/M00/0C/63/rBEBYF5gjYmANGx2AAEr7KKlmv4143_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '珍珠花苑2室2厅1卫165万元77.46平方',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' },
+
+      {
+        time: '2019-10-11',
+        see: '122',
+        title: '双南 一北 客厅大 97年房龄 业主诚心出售',
+        url: 'http://img34.house365.com/M03/29/1C/rBEBp159dwqALjYJAAH-a8xXv44544_240x170_c.jpg' }] };
+
 
 
   },
-  methods: {} };exports.default = _default;
+  components: {
+    "news-item": newsItem },
+
+  methods: {
+    goDetail: function goDetail() {
+      uni.navigateTo({
+        url: '/pages/news-detail/news-detail' });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ })
 

@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<goods-list :goods="goods"></goods-list>
+		<goods-list :goods="goods" @goodsItemClick="goGoodsDetail"></goods-list>
 		<view class="isOver" v-if="flag">
 			-----我是有底线的-----
 		</view>
@@ -87,6 +87,12 @@
 		},
 		methods: {
 			// 获取商品列表的数据
+			// 跳转到商品详情页
+			goGoodsDetail (id) {
+				uni.navigateTo({
+					url: '/pages/goods-detail/goods-detail?id='+id
+				})
+			}
 		}
 	}
 </script>

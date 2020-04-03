@@ -138,7 +138,11 @@ var _default =
   data: function data() {
     return {};
 
-  } };exports.default = _default;
+  },
+  methods: {
+    navigator: function navigator(id) {
+      this.$emit('goodsItemClick', id);
+    } } };exports.default = _default;
 
 /***/ }),
 

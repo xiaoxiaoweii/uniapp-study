@@ -326,6 +326,12 @@ var _default = { data: function data() {return { // 轮播图数据
       uni.navigateTo({
         url: url });
 
+    },
+    // 跳转到商品详情页
+    goGoodsDetail: function goGoodsDetail(id) {
+      uni.navigateTo({
+        url: '/pages/goods-detail/goods-detail?id=' + id });
+
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
@@ -464,7 +470,11 @@ var _default =
   data: function data() {
     return {};
 
-  } };exports.default = _default;
+  },
+  methods: {
+    navigator: function navigator(id) {
+      this.$emit('goodsItemClick', id);
+    } } };exports.default = _default;
 
 /***/ }),
 /* 26 */

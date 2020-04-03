@@ -1,7 +1,7 @@
 <template>
 	<view class="home">
 		<swiper indicator-dots circular>
-			<swiper-item v-for="item in swipers" :key="item.id">
+			<swiper-item v-for="item in swipers" :key="item.id" @click="navigator">
 				<!-- <image :src="item.img"></image> -->
 				<image :src="item.img" mode=""></image>
 			</swiper-item>
@@ -24,7 +24,7 @@
 			<view class="tit">
 				推荐商品
 			</view>
-			<goods-list :goods="goods"></goods-list>
+			<goods-list :goods="goods" @goodsItemClick="goGoodsDetail"></goods-list>
 		</view>
 	</view>
 </template>
@@ -181,6 +181,12 @@
 				uni.navigateTo({
 					url
 				})
+			},
+			// 跳转到商品详情页
+			goGoodsDetail (id) {
+				uni.navigateTo({
+					url: '/pages/goods-detail/goods-detail?id='+id
+				})
 			}
 		}
 	}
@@ -207,7 +213,6 @@
 		.nav_item {
 			width: 25%;
 			text-align: center;
-
 			view {
 				width: 120rpx;
 				height: 120rpx;

@@ -1,0 +1,1 @@
+<view class="home"><swiper indicator-dots circular><block wx:for="{{swipers}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><swiper-item data-event-opts="{{[['tap',[['navigator',['$event']]]]]}}" bindtap="__e"><image src="{{item.img}}" mode></image></swiper-item></block></swiper></view>

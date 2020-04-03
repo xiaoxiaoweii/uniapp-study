@@ -6,7 +6,9 @@
     "pages/news/news",
     "pages/goods/goods",
     "pages/contact/contact",
-    "pages/cloths/cloths"
+    "pages/cloths/cloths",
+    "pages/news-detail/news-detail",
+    "pages/goods-detail/goods-detail"
   ],
   "subPackages": [],
   "window": {
@@ -45,5 +47,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap62.json"
 }

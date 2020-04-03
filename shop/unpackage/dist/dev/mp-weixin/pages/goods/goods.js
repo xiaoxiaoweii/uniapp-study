@@ -223,7 +223,12 @@ __webpack_require__.r(__webpack_exports__);
 
   methods: {
     // 获取商品列表的数据
-  } };exports.default = _default;
+    // 跳转到商品详情页
+    goGoodsDetail: function goGoodsDetail(id) {
+      uni.navigateTo({
+        url: '/pages/goods-detail/goods-detail?id=' + id });
+
+    } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),

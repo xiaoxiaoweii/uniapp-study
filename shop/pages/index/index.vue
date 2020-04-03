@@ -1,7 +1,7 @@
 <template>
 	<view class="home">
 		<swiper indicator-dots circular>
-			<swiper-item v-for="item in swipers" :key="item.id" @click="navigator">
+			<swiper-item v-for="item in swipers" :key="item.id" @click="goGoodsDetail">
 				<!-- <image :src="item.img"></image> -->
 				<image :src="item.img" mode=""></image>
 			</swiper-item>

@@ -29,6 +29,9 @@ page {
 }
 .cloths {
   height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
 }
 .cloths .left {
     width: 200rpx;
@@ -46,5 +49,19 @@ page {
 .cloths .left .active {
       background-color: #DC143C;
       color: #fff;
+}
+.right {
+  height: 100%;
+  width: 520rpx;
+  margin: 0 auto;
+}
+.right .item image {
+    width: 530rpx;
+    height: 520rpx;
+    border-radius: 10px;
+}
+.right .item text {
+    font-size: 30rpx;
+    line-height: 60rpx;
 }
 

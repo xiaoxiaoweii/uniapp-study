@@ -229,7 +229,7 @@
 	.hot_goods {
 		background: #eee;
 		overflow: hidden;
-		margin-top: 14px;
+		margin-top: 10px;
 		.tit {
 			height: 50px;
 			line-height: 50px;
@@ -237,7 +237,7 @@
 			text-align: center;
 			letter-spacing: 20px;
 			background: #fff;
-			margin: 10rpx 0;
+			margin: 10rpx 0 5rpx 0;
 		}
 	}
 </style>

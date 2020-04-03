@@ -131,7 +131,13 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -232,14 +238,314 @@ var _default =
         title: '羊毛衫' }],
 
 
-      active: 0 };
+      active: 0,
+      rightDate: [
+      {
+        id: 1,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/98983/25/16598/202926/5e7da468E23a636f6/ae88aa976df65991.jpg!cr_1125x445_0_171!q70.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/98983/25/16598/202926/5e7da468E23a636f6/ae88aa976df65991.jpg!cr_1125x445_0_171!q70.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 2,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 3,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 4,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 5,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 6,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 7,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 8,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 9,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 10,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 11,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 12,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 13,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 14,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 15,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 16,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 17,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 18,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 19,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] },
+
+
+
+
+      {
+        id: 20,
+        data: [
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' },
+
+        {
+          url: 'http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/92957/18/17126/99290/5e842ddbE7aa1484e/cabd163b4eee3a28.jpg',
+          text: '111' }] }],
+
+
+
+
+
+      clickData: '' };
 
   },
+  onLoad: function onLoad() {
+    this.leftClickHandle(0, this.clothsCate[0].id);
+  },
   methods: {
-    leftClickHandle: function leftClickHandle(index) {
-      console.log(index);
+    leftClickHandle: function leftClickHandle(index, id) {
+      console.log(index, id);
       this.active = index;
+      var rightDate = this.rightDate;
+      console.log(rightDate[index].data);
+      this.clickData = rightDate[index].data;
+    },
+    previewImage: function previewImage(current) {
+      var urls = this.clickData.map(function (item) {
+        return item.url;
+      });
+      console.log(urls);
+      uni.previewImage({
+        urls: urls,
+        current: current });
+
     } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

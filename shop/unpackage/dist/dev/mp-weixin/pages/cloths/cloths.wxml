@@ -1,0 +1,1 @@
+<view class="cloths"><scroll-view class="left" scroll-y="true"><block wx:for="{{clothsCate}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view data-event-opts="{{[['tap',[['leftClickHandle',[index]]]]]}}" class="{{[active===index?'active':' ']}}" bindtap="__e">{{''+item.title+''}}</view></block></scroll-view></view>

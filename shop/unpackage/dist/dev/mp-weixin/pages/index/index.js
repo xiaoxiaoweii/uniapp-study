@@ -255,13 +255,13 @@ var _default = { data: function data() {return { // 轮播图数据
 
       {
         icon: 'iconfont icon-fuwu',
-        title: '充值缴费',
-        path: '/pages/goods/goods' },
+        title: '联系我们',
+        path: '/pages/contact/contact' },
 
       {
         icon: 'iconfont icon-coat',
         title: '晓晓服饰',
-        path: '/pages/goods/goods' },
+        path: '/pages/cloths/cloths' },
 
       {
         icon: 'iconfont icon-shengxian_xie',

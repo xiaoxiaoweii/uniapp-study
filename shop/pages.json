@@ -25,6 +25,18 @@
 				"enablePullDownRefresh": true
 			}
         }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {
+				"navigationBarTitleText": "联系我们"
+			}
+        }
+        ,{
+            "path" : "pages/cloths/cloths",
+            "style" : {
+				"navigationBarTitleText": "晓晓服饰"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
